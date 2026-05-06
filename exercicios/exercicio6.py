@@ -20,4 +20,4 @@ def divisão(*args):
         return args
 
 while True:
-    input("Digite um valor")
+    input("Digite um valor")s
