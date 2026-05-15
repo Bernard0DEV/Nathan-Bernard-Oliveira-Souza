@@ -5,13 +5,12 @@ class Praca:
         self.lanchonete = lanchonete
 
     def condicoes_lanchonete(self) -> str:
-       self.lanchonete = lanchonete
-       if self.lanchonete == "Lanchou cagou":
-            return "A lanchonete está em más condições, escolha outro lugar para comer!"   
+        if self.lanchonete == "Lanchou cagou":
+            return "A lanchonete está em más condições, escolha outro lugar para comer!"
         elif self.lanchonete == "Lanchou pagou":
             return "A lanchonete está em boas condições, pode comer lá!"
         else:
-            return "A lanchonete está em condições regulares, escolha outro lugar para comer ou coma lá por sua conta e risco!"
+            return "Condição da lanchonete desconhecida."
 
 praca = Praca("fedendo a inhaca", "Tudo quebrado", "Lanchou cagou")
 print(praca.condicoes_lanchonete())
