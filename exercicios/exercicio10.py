@@ -13,4 +13,4 @@ class Praca:
             return "Condição da lanchonete desconhecida."
 
 praca = Praca("fedendo a inhaca", "Tudo quebrado", "Lanchou cagou")
-print(praca.condicoes_lanchonete())
+print(praca.condicoes_lanchonete())s
